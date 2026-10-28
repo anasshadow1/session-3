@@ -17,8 +17,6 @@ for (let i = 0; i < mots.length; i++) {
 console.log("le nombre des mots long :", motsLongs);
 
 
-2.2
-
 let nombres = [4, 7, 2, 9, 5, 8];
 
 let sommePairs = 0;
