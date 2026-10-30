@@ -1,0 +1,18 @@
+
+/* GLOBAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+}
+
+a {
+    color: inherit;
+}
