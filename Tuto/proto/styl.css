@@ -1,0 +1,202 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    color: #081b50;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 7%;
+    background: white;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ffc83d;
+}
+
+nav a {
+    text-decoration: none;
+    color: #081b50;
+    margin: 12px;
+}
+
+.btn {
+    background: #ffc83d;
+    color: #081b50;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px 7%;
+    background: #edf6ff;
+}
+
+.content {
+    width: 50%;
+}
+
+.content h4,
+.formations h4 {
+    color: #6699e8;
+    letter-spacing: 3px;
+}
+
+.content h1 {
+    font-size: 48px;
+    line-height: 1.1;
+}
+
+.content h1 span {
+    color: #0870f9;
+}
+
+.content p {
+    color: #60749b;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.primary {
+    background: #0870f9;
+    color: white;
+    padding: 13px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.secondary {
+    border: 1px solid #0870f9;
+    color: #0870f9;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 7%;
+    gap: 20px;
+}
+
+.features div {
+    width: 25%;
+}
+
+.features p {
+    color: #60749b;
+    font-size: 14px;
+}
+
+.formations {
+    padding: 30px 7%;
+    background: #edf6ff;
+}
+
+.formations h2 {
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 33.33%;
+}
+
+.card img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.card div {
+    padding: 15px;
+}
+
+.card p {
+    color: #60749b;
+    font-size: 14px;
+}
+
+.card a {
+    color: #0870f9;
+    text-decoration: none;
+}
+
+footer {
+    padding: 25px 7%;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    color: #60749b;
+}
+
+    header {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .content,
+    .image {
+        width: 100%;
+    }
+
+    .content h1 {
+        font-size: 35px;
+    }
+
+    .features,
+    .cards {
+        flex-direction: column;
+    }
+
+    .features div,
+    .card {
+        width: 100%;
+    }
+
+    .card {
+        min-height: 150px;
+    }
+
